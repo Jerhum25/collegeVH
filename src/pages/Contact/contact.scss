@@ -1,0 +1,15 @@
+.contactContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 100px;
+  h2 {
+    padding: 10px;
+  }
+  .adresse {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

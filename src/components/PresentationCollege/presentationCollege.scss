@@ -1,0 +1,45 @@
+.presentationCollegeContainer {
+  padding: 50px;
+  h2 {
+    margin-bottom: 20px;
+  }
+  div {
+    display: flex;
+    .historiqueCollege {
+      width: 70%;
+      text-align: justify;
+    }
+    .principalCollege {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .presentationCollegeContainer {
+    padding: 5px;
+    div {
+      flex-direction: column;
+      gap: 50px;
+      .historiqueCollege,
+      .principalCollege {
+        width: 100%;
+      }
+      .principalCollege {
+        gap: 0;
+        img {
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}
