@@ -20,20 +20,25 @@
         }
       }
     }
-    tbody{
-        tr{
-            td{
-                width: 300px;
-                border: 1px solid #000;
-                padding: 5px;
-                h4{
-                    span{
-                        text-transform: uppercase;
-                    }
-                }
-
+    tbody {
+      tr {
+        td {
+          width: 300px;
+          border: 1px solid #000;
+          padding: 5px;
+          h4 {
+            span {
+              text-transform: uppercase;
             }
+          }
         }
+      }
     }
+  }
+}
+
+@media screen and (max-width:768px) {
+  .professeursContainer {
+    padding: 5px;
   }
 }

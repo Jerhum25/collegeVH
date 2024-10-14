@@ -19,6 +19,8 @@ function Professeurs(props) {
       profs.sort(function compare(a, b) {
         if (a.nom < b.nom) return -1;
         if (a.nom > b.nom) return 1;
+        if (a.prenom < b.prenom) return -1;
+        if (a.prenom > b.prenom) return 1;
         return 0;
       }),
     ]);
